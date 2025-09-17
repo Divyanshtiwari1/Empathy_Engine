@@ -2,8 +2,8 @@
 
 A sophisticated text-to-speech service that dynamically modulates vocal characteristics based on detected emotions in the input text. This project bridges the gap between robotic TTS systems and emotionally expressive human speech.
 
-🌟 Features
-✅ Core Requirements (All Implemented)
+ Features
+ Core Requirements (All Implemented)
 
 Text Input: Accepts text via CLI or web interface
 Emotion Detection: Classifies text into 7+ distinct emotional categories
@@ -11,7 +11,7 @@ Vocal Parameter Modulation: Dynamically adjusts rate, pitch, volume, and emphasi
 Clear Emotion-to-Voice Mapping: Sophisticated mapping system with intensity scaling
 Audio Output: Generates high-quality .wav audio files
 
-🎯 Bonus Features (Implemented)
+ Bonus Features (Implemented)
 
 Granular Emotions: 7 emotion categories (happy, sad, angry, worried, surprised, disgusted, neutral)
 Intensity Scaling: Emotion intensity affects the degree of vocal modulation
@@ -19,7 +19,7 @@ Web Interface: Beautiful, responsive web UI with real-time audio playback
 Advanced AI: Uses Hugging Face transformers for sophisticated emotion detection
 Dual Interface: Both web and CLI interfaces supported
 
-🚀 Quick Start
+ Quick Start
 Prerequisites
 
 Python 3.7 or higher
@@ -43,7 +43,7 @@ bash   python empathy_engine.py
 Then open http://localhost:5000 in your browser.
 CLI Interface:
 bash   python empathy_engine.py --cli
-📦 Dependencies
+ Dependencies
 Create a requirements.txt file with these dependencies:
 flask==2.3.3
 pyttsx3==2.90
@@ -53,7 +53,7 @@ tokenizers==0.15.0
 numpy==1.24.3
 Installation command:
 bashpip install flask pyttsx3 transformers torch tokenizers numpy
-🏗️ Architecture & Design Choices
+🏗 Architecture & Design Choices
 1. Emotion Detection System
 Primary Method: Hugging Face Transformers
 
@@ -239,7 +239,7 @@ Input Validation: Sanitize all text inputs
 Rate Limiting: Prevent abuse with request rate limits
 File Cleanup: Automatically delete temporary audio files
 
-🤝 Contributing
+ Contributing
 
 Fork the repository
 Create a feature branch (git checkout -b feature/amazing-feature)
@@ -249,7 +249,7 @@ Open a Pull Request
 
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-🙏 Acknowledgments
+ Acknowledgments
 
 Hugging Face for the emotion classification model
 pyttsx3 developers for the TTS engine
@@ -257,5 +257,10 @@ Flask team for the web framework
 The AI/ML community for inspiration and resources
 
 
-Built with ❤️ for the AI Voice Challenge
+<img width="1897" height="1016" alt="Screenshot 2025-09-17 195206" src="https://github.com/user-attachments/assets/2a33f4cb-8c6a-49e2-856f-b893afcbe20a" />
+<img width="1893" height="909" alt="Screenshot 2025-09-17 195226" src="https://github.com/user-attachments/assets/02c52678-3e15-4d3c-9b4f-75fc939fb3ab" />
+<img width="1864" height="967" alt="Screenshot 2025-09-17 201849" src="https://github.com/user-attachments/assets/e91a7d0e-c82b-4782-ab55-927b3d9a0519" />
+
+
+
 "Giving AI a human voice, one emotion at a time."
